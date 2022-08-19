@@ -1,3 +1,4 @@
+-- Jans lib (got from garfieldscripts.xyz https://garfieldscripts.xyz/ui-libs/janlib.lua)
 -- Modified support for Krnl and others
 
 --LIBRARY START
@@ -11,7 +12,7 @@ if getgenv().library then
     getgenv().library:Unload()
 end
 
-local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {}, title = "👑 hood.sense 0.8.6 | Beta 👑", open = false, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "cheatx_cnfgs", fileext = ".txt"}
+local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {}, title = "👑 hood.sense 0.9.8 | Beta 👑", open = false, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "cheatx_cnfgs", fileext = ".txt"}
 getgenv().library = library
 
 --Locals
